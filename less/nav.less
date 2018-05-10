@@ -1,0 +1,127 @@
+/*-------------------------------*/
+/*     Sidebar nav styles        */
+/*-------------------------------*/
+
+ul.sidebar-nav {
+    position: relative;
+    top: 0;
+    width: 320px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top:30px;
+}
+
+ul.sidebar-nav li {
+    position: relative; 
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+ul.sidebar-nav li:hover:before,
+ul.sidebar-nav li.open:hover:before {
+    width: 100%;
+    -webkit-transition: width .2s ease-in;
+      -moz-transition:  width .2s ease-in;
+       -ms-transition:  width .2s ease-in;
+            transition: width .2s ease-in;
+
+}
+
+ul.sidebar-nav li a {
+    display: block;
+    color: @gris-oscuro;
+    font-family:@fuenteTexto;
+    text-decoration: none;
+    padding: 10px 15px 10px 30px;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:3.4vw;
+}
+
+ul.sidebar-nav li.active a,
+ul.sidebar-nav li:hover a{
+  color:@purpura;
+} 
+
+ul.sidebar-nav li a:hover,
+ul.sidebar-nav li a:active,
+ul.sidebar-nav li a:focus,
+ul.sidebar-nav li.open a:hover,
+ul.sidebar-nav li.open a:active,
+ul.sidebar-nav li.open a:focus{
+    color: @purpura;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+ul.sidebar-nav .dropdown-menu {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+
+ul#social-nav{
+    position: relative;
+  margin-top:40px;  
+  list-style: none;
+  display:block;
+  text-align:center;
+	padding:0;
+      top: 0;
+      left:0;
+    width: 320px;
+}
+
+ul#social-nav li{
+  display: inline-block;
+  margin:0;
+  margin-left: 6px;
+    position: relative; 
+}
+
+ul#social-nav li a{
+   font-size:6vw;
+}
+
+
+ul#social-nav li.facebook a{ color:#3b5998; }
+ul#social-nav li.twitter a{ color:#0084b4; }
+ul#social-nav li.linkedin a{ color:#0077b5; }
+ul#social-nav li.youtube a{ color:#e52d27; }
+ul#social-nav li.github a{ color:#333; }
+
+#sidebar-wrapper #busqueda{
+  position:relative;
+  padding:0 30px;  
+  margin-top:120px; 
+  width:320px;
+}
+
+#sidebar-wrapper #busqueda input[type="text"]{
+  border-radius:0;
+  background:#f5f5f5;
+  color:@purpura;
+  font-family:@fuenteTexto;
+  box-shadow:none;
+  border-color:#ddd;
+  font-size:4vw;
+}
+#sidebar-wrapper #busqueda input[type="text"]:focus{
+  border-color:@purpura;
+}
+
+#sidebar-wrapper #busqueda button{
+  background:@purpura;
+  border:1px solid @purpura-oscuro;
+  border-radius:0;
+  font-size:4vw;
+}
