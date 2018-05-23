@@ -26,7 +26,7 @@
   font-family:'Roboto',sans-serif;
   font-size:15pt;
   display:block;
-  text-align:center;  
+  text-align:center;
   color:var(--gris-claro);
   font-style:italic;
   margin-bottom:20px;
@@ -54,14 +54,14 @@
   text-align:justify;
   padding:0px;
   font-family:'Lato',sans-serif;
-  font-size:4.6vw;  
+  font-size:4.6vw;
   font-weight:300;
   color:#454340;
   line-height:7.2vw;
 }
 #sidebar .apartado .info-semidios p strong,
 #sidebar .apartado .info-semidios p em{
-  font-size:4.6vw;  
+  font-size:4.6vw;
 }
 #sidebar .apartado .info-semidios p a{
   color:#8c8c8c;
@@ -74,7 +74,7 @@
 }
 #sidebar .apartado .container-form{
   margin-top:30px;
-  padding:0 0px; 
+  padding:0 0px;
 }
 
 #sidebar .apartado .container-form .form{
@@ -88,7 +88,7 @@
 #sidebar .apartado .form label{
   font-family:'Lato',sans-serif;
   text-transform:uppercase;
-  color:var(--gris-claro);  
+  color:var(--gris-claro);
 }
 .apartado .form input[type="text"].form-control,
 .apartado .form input[type="email"].form-control{
@@ -110,4 +110,77 @@
 }
 #sidebar .apartado .form button.btn.btn-success.btn-lg.btn-block:hover{
   background:@purpura;
+}
+
+
+@media (min-width: 768px) {
+  #sidebar .apartado .info-semidios h4{
+    font-size:3.8vw;
+    text-align:left;
+    margin-bottom:15px;
+    line-height:4vw;
+    margin-top:20px;
+  }
+  #sidebar .apartado .info-semidios h4 br{
+    display:none;
+  }
+  #sidebar .menu-rrss{
+    text-align:left;
+    margin-bottom:10px;
+  }
+  #sidebar .apartado .info-semidios p{
+    text-align:justify;
+    padding:0px;
+    font-family:'Lato',sans-serif;
+    font-size:2.2vw;
+    color:#454340;
+    line-height:3.2vw;
+  }
+  #sidebar .apartado .info-semidios p strong,
+  #sidebar .apartado .info-semidios p em{
+    font-size:2.2vw;
+  }
+  #sidebar .apartado .info-semidios p a{
+    color:#8c8c8c;
+    font-size:4.6vw;
+  }
+  #sidebar .apartado .info-semidios p a:hover{
+    color:var(--purpura-oscuro);
+  }
+}
+
+@media (min-width: 992px) {
+  #sidebar .apartado .imagen-semidios{
+    padding:0 20px 0 0;
+  }
+
+  #sidebar .apartado .info-semidios h4{
+    font-size:3.0vw;
+    margin-bottom:15px;
+    line-height:3.2vw;
+    margin-top:15px;
+  }
+  #sidebar .apartado .info-semidios h4 br{
+    display:none;
+  }
+  #sidebar .menu-rrss{
+    text-align:left;
+    margin-bottom:10px;
+  }
+  #sidebar .apartado .info-semidios p{
+    text-align:left;
+    font-size:1.5vw;
+    line-height:2.4vw;
+  }
+  #sidebar .apartado .info-semidios p strong,
+  #sidebar .apartado .info-semidios p em{
+    font-size:1.5vw;
+  }
+  #sidebar .apartado .info-semidios p a{
+    color:#8c8c8c;
+    font-size:2.6vw;
+  }
+  #sidebar .apartado .info-semidios p a:hover{
+    color:var(--purpura-oscuro);
+  }
 }

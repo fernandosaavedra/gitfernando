@@ -79,8 +79,8 @@ header#header-inicio #logo .slogan{
   font-family:'Lato',sans-serif;
   color:var(--gris-claro);
   font-weight:300;
-  font-size:3.5vw;  
-  letter-spacing:0.7vw;  
+  font-size:3.5vw;
+  letter-spacing:0.7vw;
   margin-left:3px;
   padding:0;
   position:relative;
@@ -124,7 +124,7 @@ nav#menu-principal.navbar.navbar-default ul.menu.nav.navbar-nav{
   margin: 0;
   padding: 0;
   margin-top: 10px;
-  
+
 }
 nav#menu-principal.navbar.navbar-default ul.menu.nav.navbar-nav li {
   display: block;
@@ -197,7 +197,7 @@ nav#menu-principal.navbar.navbar-default ul.menu.nav.navbar-nav li.destacado:hov
   margin-left:20px;
   font-weight:300;
   font-family: 'Lato', sans-serif;
-  
+
 }
 
 #main article.main-articulo{
@@ -229,7 +229,7 @@ nav#menu-principal.navbar.navbar-default ul.menu.nav.navbar-nav li.destacado:hov
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 3.4vw;
-  line-height:7.3vw;  
+  line-height:7.3vw;
   color: white;
   font-style:normal;
 }
@@ -237,7 +237,7 @@ nav#menu-principal.navbar.navbar-default ul.menu.nav.navbar-nav li.destacado:hov
 #main article.main-articulo span.main-datos a{
   text-decoration:none;
   background:var(--purpura-oscuro);
-  color:white; 
+  color:white;
   padding:4px 11px;
   font-size: 2.9vw;
   border-radius:3px;
@@ -256,10 +256,10 @@ nav#menu-principal.navbar.navbar-default ul.menu.nav.navbar-nav li.destacado:hov
   margin-top:0px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 4.2vw;  
+  font-size: 4.2vw;
   line-height: 6.3vw;
   color: white;
-  font-style:normal;  
+  font-style:normal;
 }
 
 #main article.main-articulo p.parrafo a.ver-mas{
@@ -350,7 +350,7 @@ section.contenido .elemento-portafolio {
 
 section.contenido .elemento-portafolio:hover .capa{
   visibility: visible;
-  opacity: 1;  
+  opacity: 1;
 }
 section.contenido .capa {
   visibility: hidden;
@@ -439,7 +439,7 @@ section.contenido #articulos article.articulo{
   padding-top:15px;
   margin-bottom:0;
   padding-left:0px;
-  
+
 }
 
 section.contenido #articulos article.articulo a{
@@ -448,7 +448,7 @@ section.contenido #articulos article.articulo a{
 
 section.contenido #articulos article.articulo a h3.titulo{
   font-family: 'Roboto', sans-serif;
-  font-weight: 900;  
+  font-weight: 900;
   font-size:6.3vw;
   line-height:8.5vw;
   transition:0.5s all ease;
@@ -474,7 +474,7 @@ section.contenido #articulos article.articulo span.datos-post a{
   text-decoration:none;
   background:var(--purpura-oscuro);
   color:white;
-  margin-top:10px; 
+  margin-top:10px;
   padding:2px 15px;
   font-size:2.7vw;
   border-radius:2px;
@@ -549,7 +549,7 @@ section.contenido #articulos #mas-noticias a.ver-mas{
   color:white;
   background:var(--purpura);
   padding:20px 45px;
-  font-weight:800;  
+  font-weight:800;
   text-decoration:none;
   transition:0.7s all ease;
 }
@@ -586,7 +586,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
   font-family:'Roboto',sans-serif;
   font-size:15pt;
   display:block;
-  text-align:center;  
+  text-align:center;
   color:var(--gris-claro);
   font-style:italic;
   margin-bottom:20px;
@@ -614,14 +614,14 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
   text-align:justify;
   padding:0px;
   font-family:'Lato',sans-serif;
-  font-size:4.2vw;  
+  font-size:4.2vw;
   font-weight:300;
   color:var(--gris-oscuro);
   line-height:22pt;
 }
 #sidebar .apartado .info-semidios p strong,
 #sidebar .apartado .info-semidios p em{
-  font-size:4.2vw;  
+  font-size:4.2vw;
 }
 #sidebar .apartado .info-semidios p a{
   color:var(--gris-claro);
@@ -634,7 +634,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
 }
 #sidebar .apartado .container-form{
   margin-top:30px;
-  padding:0 0px; 
+  padding:0 0px;
 }
 
 #sidebar .apartado .container-form .form{
@@ -648,7 +648,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
 #sidebar .apartado .form label{
   font-family:'Lato',sans-serif;
   text-transform:uppercase;
-  color:var(--gris-claro);  
+  color:var(--gris-claro);
 }
 .apartado .form input[type="text"].form-control,
 .apartado .form input[type="email"].form-control{
@@ -681,8 +681,8 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
   }
 
   header#header-inicio #logo .slogan{
-    font-size:2.5vw;  
-    letter-spacing:0.55vw;  
+    font-size:2.5vw;
+    letter-spacing:0.55vw;
   }
   nav#menu-principal.navbar.navbar-default{
     margin:25px 55px;
@@ -696,7 +696,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
 
   #main article.main-articulo span.main-datos{
     font-size: 2.4vw;
-    line-height:5.3vw;  
+    line-height:5.3vw;
   }
 
   #main article.main-articulo span.main-datos a{
@@ -705,12 +705,12 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
 
   #main article.main-articulo p.parrafo{
     padding:12px 0 25px 3px;
-    font-size: 2.8vw;  
+    font-size: 2.8vw;
     line-height: 4.3vw;
   }
 
 
-  section.contenido #articulos article.articulo a h3.titulo{  
+  section.contenido #articulos article.articulo a h3.titulo{
     font-size:4.7vw;
     line-height:6.5vw;
     margin-bottom:15px;
@@ -724,7 +724,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
   }
 
   section.contenido #articulos article.articulo span.datos-post a{
-    margin-top:10px; 
+    margin-top:10px;
     margin-left:5px;
     padding:0px 22px;
     font-size:1.8vw;
@@ -748,14 +748,14 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
     text-align:justify;
     padding:0px;
     font-family:'Lato',sans-serif;
-    font-size:3.3vw;  
+    font-size:3.3vw;
     font-weight:300;
     color:var(--gris-oscuro);
-    line-height:4.5vw;  
+    line-height:4.5vw;
   }
   #sidebar .apartado .info-semidios p strong,
   #sidebar .apartado .info-semidios p em{
-    font-size:3.3vw;  
+    font-size:3.3vw;
   }
 }
 
@@ -773,8 +773,8 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
     margin-top:5px;
   }
   header#header-inicio #logo .slogan{
-    font-size:1.8vw;  
-    letter-spacing:0.6vw;  
+    font-size:1.8vw;
+    letter-spacing:0.6vw;
     margin-left:3px;
     padding-bottom:20px;
   }
@@ -828,11 +828,11 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
 
   #main article.main-articulo p.parrafo{
     padding:12px 0 25px 0px;
-    font-size: 17pt;  
+    font-size: 17pt;
     line-height: 28pt;
   }
 
-  section.contenido #articulos article.articulo a h3.titulo{  
+  section.contenido #articulos article.articulo a h3.titulo{
     font-size:17pt;
     line-height:27pt;
     margin-bottom:5px;
@@ -864,27 +864,27 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
     font-size:22pt;
     line-height:34pt;
   }
-    
+
   #sidebar .apartado .info-semidios h4 br{
     display:none;
-  }  
+  }
 
   #sidebar .apartado .info-semidios p{
     text-align:justify;
     padding:0px;
     font-family:'Lato',sans-serif;
-    font-size:15pt;  
-    line-height:25pt;  
+    font-size:15pt;
+    line-height:25pt;
   }
   #sidebar .apartado .info-semidios p strong,
   #sidebar .apartado .info-semidios p em{
-    font-size:15pt; 
+    font-size:15pt;
   }
 
 
 
 }
- 
+
 /* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
 @media (min-width: 992px){
   header#header-inicio #logo{
@@ -897,8 +897,8 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
     margin-top:5px;
   }
   header#header-inicio #logo .slogan{
-    font-size:10pt;  
-    letter-spacing:3.8pt;  
+    font-size:10pt;
+    letter-spacing:3.8pt;
     margin-left:3px;
     padding-bottom:20px;
   }
@@ -926,7 +926,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
   #main .main-destacado span{
     padding:10px 25px;
     font-size:15pt;
-    margin-left:0px;  
+    margin-left:0px;
   }
 
   #main article.main-articulo .main-titulo h3{
@@ -939,7 +939,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
     padding:12px 0 13px 3px;
     margin-top:30px;
     font-size: 15pt;
-    line-height:35pt;  
+    line-height:35pt;
     color: white;
     font-style:normal;
   }
@@ -952,7 +952,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
   #main article.main-articulo p.parrafo{
     padding:12px 0 45px 0px;
     font-family: 'Lato', sans-serif;
-    font-size: 17pt;  
+    font-size: 17pt;
     line-height: 31pt;
   }
 
@@ -980,7 +980,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
     color: var(--gris-oscuro);
   }
   section.contenido #articulos article.articulo span.datos-post a{
-    margin-top:10px; 
+    margin-top:10px;
     padding:0px 15px;
     font-size:11pt;
     margin-bottom:0px;
@@ -1020,7 +1020,7 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
     color:white;
     background:var(--purpura);
     padding:20px 45px;
-    font-weight:800;  
+    font-weight:800;
     text-decoration:none;
     transition:0.7s all ease;
   }
@@ -1040,21 +1040,21 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
     font-size:22pt;
     line-height:34pt;
   }
-    
+
   #sidebar .apartado .info-semidios h4 br{
     display:block;
-  }  
+  }
 
   #sidebar .apartado .info-semidios p{
     text-align:justify;
     padding:0px;
     font-family:'Lato',sans-serif;
-    font-size:12pt;  
-    line-height:25pt;  
+    font-size:12pt;
+    line-height:25pt;
   }
   #sidebar .apartado .info-semidios p strong,
   #sidebar .apartado .info-semidios p em{
-    font-size:12pt; 
+    font-size:12pt;
   }
 
   footer#footer nav#menu-rrss{
@@ -1062,7 +1062,6 @@ section.contenido #articulos #mas-noticias a.ver-mas:hover{
     margin-top:-15px;
   }
 }
- 
+
 /* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
 @media (min-width: 1200px){}
-

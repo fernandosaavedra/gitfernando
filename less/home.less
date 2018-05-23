@@ -5,7 +5,7 @@
 }
 #main .fondo{
   background:rgba(0,0,0,0.4);
-  padding:20px;
+  padding:10px;
 
 }
 #main .overlay{
@@ -25,7 +25,7 @@
   position:absolute;
   z-index:3;
   top:0;
-  font-size:4.2vw;
+  font-size:4.5vw;
   margin-left:20px;
   font-weight:300;
   font-family: @fuenteTexto;
@@ -36,12 +36,12 @@
 }
 #main article.main-articulo .main-titulo{
   display:block;
-  text-align:center;
+  text-align:left;
 }
 #main article.main-articulo .main-titulo h3{
   color:white;
-  font-size:7.6vw;
-  line-height:11vw;
+  font-size:8.4vw;
+  line-height:11.2vw;
   font-family: @fuenteTexto;
   font-weight: 700;
   margin-top:45px;
@@ -49,17 +49,18 @@
   -ms-text-shadow: 3px 3px 5px rgba(0,0,0,0.7);
   -moz-text-shadow: 3px 3px 5px rgba(0,0,0,0.6);
   text-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+  text-align:center;
 }
 
 #main article.main-articulo span.main-datos{
   display:block;
   text-align:center;
-  padding:12px 0 13px 3px;
+  padding:12px 0 13px 0px;
   margin-top:0px;
   font-family: @fuenteTexto;
   font-weight: 300;
-  font-size: 4.5vw;
-  line-height:7.3vw;  
+  font-size: 4.8vw;
+  line-height:8.3vw;
   color: white;
   font-style:normal;
 }
@@ -67,11 +68,12 @@
 #main article.main-articulo span.main-datos a{
   text-decoration:none;
   background:@purpura-oscuro;
-  color:white; 
+  color:white;
   display:inline-block;
   padding:4px 11px;
-  font-size: 3.9vw;
-  margin-bottom:10px;
+  font-size: 4.3vw;
+  margin-top:5px;
+  margin-bottom:5px;
   border-radius:3px;
   transition:0.3s all ease;
   margin-left:5px;
@@ -83,15 +85,15 @@
 
 #main article.main-articulo p.parrafo{
   display:block;
-  text-align:justify;
+  text-align:left;
   padding:12px 0 25px 3px;
   margin-top:0px;
   font-family: @fuenteTexto;
   font-weight: 300;
-  font-size: 5.2vw;  
-  line-height: 7.3vw;
+  font-size: @tamanoFuenteBajadaXS;
+  line-height: @lineHeightFuenteBajadaXS;
   color: white;
-  font-style:normal;  
+  font-style:normal;
 }
 
 #main article.main-articulo p.parrafo a.ver-mas{
@@ -115,32 +117,36 @@
   transition:.3s all ease;
 }
 #contenido .article .titulo-post a:hover{
-  color:#771756;  
+  color:#771756;
 }
 #contenido .article .titulo-post h3.titulo{
   font-family: 'Lato',sans-serif;
   font-weight:800;
   display:block;
-  line-height:8vw;  
+  font-size:@tamanoFuenteTituloXS;
+  line-height:@lineHeightFuenteTituloXS;
 }
 
 #contenido .article .info-post{
   margin-top:30px;
   font-family: 'Lato',sans-serif;
-  font-weight:300;  
-  font-size:4.25vw;
+  font-weight:300;
+  font-size:4.5vw;
   line-height:9vw;
 }
 
 #contenido .article .info-post a{
   background:#941c6b;
   color:white;
-  padding:5px 10px;
+  display:inline-block;
+  padding:1px 10px;
+  margin-bottom:10px;
   border-radius:2px;
   margin-left:5px;
-  font-size:3.4vw;
+  font-size:4.0vw;
   border:none;
 }
+
 #contenido .article .info-post a:hover{
   background:#771756;
 }
@@ -153,24 +159,23 @@
   display:block;
   font-family: 'Lato',sans-serif;
   font-weight:300;
-  font-size:4.6vw;
-  line-height:7.2vw;
-  text-align:justify;
+  font-size:@tamanoFuenteBajadaXS;
+  line-height:@lineHeightFuenteBajadaXS;
+  text-align:left;
 }
 #contenido .article .resumen-post p a{
   font-weight:800;
   color:#941c6b;
-  margin-left:5px;  
+  margin-left:5px;
 }
-
 #contenido #boton-ver-mas{
   margin-top:30px;
   margin-bottom:30px;
 }
 #contenido #boton-ver-mas a.boton-ver-mas{
-  background:#eee;
+  background:@purpura;
   border:none;
-  color:#771756;
+  color:white;
   display:block;
   font-family:'Lato',sans-serif;
   font-size:5vw;
@@ -179,4 +184,140 @@
   text-align:center;
   text-transform:uppercase;
   margin-bottom:30px;
+  transition:0.3s all ease;
+}
+
+#contenido #boton-ver-mas a.boton-ver-mas:hover{
+  background:@purpura-oscuro;
+}
+
+@media (min-width: 768px) {
+  #main .main-destacado span{
+    padding:10px 25px;
+    font-size:2.1vw;
+    margin-left:10px;
+  }
+
+  #main article.main-articulo .main-titulo h3{
+    font-size:3.8vw;
+    line-height:5.2vw;
+    margin-top:40px;
+  }
+
+  #main article.main-articulo span.main-datos{
+    font-size: 2.1vw;
+    line-height:3.0vw;
+  }
+
+  #main article.main-articulo span.main-datos a{
+    display:inline-block;
+    font-size: 1.8vw;
+  }
+
+  #main article.main-articulo p.parrafo{
+    font-size: 2.4vw;
+    line-height: 3.2vw;
+    color: white;
+  }
+
+
+  #contenido .article .titulo-post h3.titulo{
+    font-size:3vw;
+    line-height:4vw;
+  }
+
+  #contenido .article .info-post{
+    margin-top:30px;
+    font-size:1.9vw;
+    line-height:2.5vw;
+  }
+
+  #contenido .article .info-post a{
+    padding:3px 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:1.9vw;
+    display:inline-block;
+  }
+
+  #contenido .article .resumen-post p{
+    font-size:2.2vw;
+    line-height:3.7vw;
+  }
+
+  #contenido #boton-ver-mas{
+    display:block;
+    text-align:center;
+  }
+  #contenido #boton-ver-mas a.boton-ver-mas{
+    font-size:2.3vw;
+    font-weight:400;
+    padding:10px 40px;
+    display:inline-block;
+  }
+}
+
+
+
+
+@media (min-width: 992px) {
+  #main .main-destacado span{
+    padding:10px 20px;
+    font-size:1.4vw;
+    margin-left:10px;
+  }
+
+  #main article.main-articulo .main-titulo h3{
+    font-size:3.3vw;
+    line-height:4.5vw;
+    margin-top:70px;
+  }
+
+  #main article.main-articulo span.main-datos{
+    font-size: 1.6vw;
+    line-height:2.4vw;
+  }
+
+  #main article.main-articulo span.main-datos a{
+    display:inline-block;
+    font-size: 1.3vw;
+  }
+
+  #main article.main-articulo p.parrafo{
+    font-size: 1.7vw;
+    line-height: 2.6vw;
+    color: white;
+  }
+
+
+  #contenido .article .titulo-post h3.titulo{
+    font-size:2.6vw;
+    line-height:3.2vw;
+  }
+
+  #contenido .article .info-post{
+    margin-top:20px;
+    font-size:1.4vw;
+    line-height:2.5vw;
+  }
+
+  #contenido .article .info-post a{
+    padding:1px 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:1.3vw;
+    display:inline-block;
+  }
+
+  #contenido .article .resumen-post p{
+    font-size:1.6vw;
+    line-height:2.7vw;
+  }
+
+  #contenido #boton-ver-mas a.boton-ver-mas{
+    font-size:1.3vw;
+    padding:10px 40px;
+  }
+
+
 }
